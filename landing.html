@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <link rel="stylesheet" href="all.min.css">
+
+    <link rel="stylesheet" href="normalize.css">
+    <script src="landing.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="up">
+
+    </div>
+
+    <div class="setting">
+        <div class="setting-container">
+            <div class="colors">
+
+                <h2>Colors</h2>
+                <ul>
+                    <li class="active" data-color="#FF9F1C"></li>
+                    <li data-color="#009FFD"></li>
+                    <li data-color="#5DA9E9"></li>
+                    <li data-color="#80DED9"></li>
+                    <li data-color="#FAA6FF"></li>
+                    <li data-color="#2EC4B6"></li>
+                </ul>
+            </div>
+    
+            <div class="bg-option">
+                <h2>background option</h2>
+                <span data-bg="multi">multi background</span>
+                <span data-bg="defult" class="active">defult background</span>
+                <span data-bg="another">chose another background</span>
+            </div>
+            <div class="another-bg" id="another">
+                <div data-image="lan1.jpg"><img src="lan1.jpg"></div>
+                <div data-image="lan2.jpg"><img src="lan2.jpg"></div>
+                <div data-image="lan3.jpg"><img src="lan3.jpg"></div>
+                <div data-image="lan4.jpg"><img src="lan4.jpg"></div>
+                <div data-image="lan5.jpg"><img src="lan5.jpg"></div>
+                <div data-image="lan6.jpg"><img src="lan6.jpg"></div>
+            </div>
+        </div>
+        <div class="gear-container" id="gear">
+            <i class="fas fa-cog" ></i>
+        </div>
+
+
+
+        
+        
+    </div>
+
+    <div class="landing" id="_header">
+        <div class="overlay"></div>
+        <div class="headerarea">
+            <nav class="nav-par">
+                <div class="logo">
+                    <img src="logo.jpg">
+                </div>
+                <div class="links">
+                    <ul >
+                        <li><a  data-section=".about-us">about us</a></li>
+                        <li><a  data-section=".galarry">galarry</a></li>
+                        <li><a  data-section=".skills">skills</a></li>
+                        <li><a  data-section=".timeout">time line</a></li>
+                        <li><a  data-section=".contact">contact us</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="login">
+                    <button>signin</button>
+                    <button>login</button>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="text">
+            <div>
+                <h1>we are <span>craetive</span> agency</h1>
+                <p>hello my dear in our website be happy 
+                    we wish you enjoy when you use this website 
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="about-us">
+        <div class="container">
+            <div class="text">
+                <h2>about us</h2>
+                <p>22 years ago, I started Internet Marketing 
+                    Ninjas and today we employ nearly 50 Ninjas 
+                    totaling 450 years experience across the team. 
+                    We specialize in creating and marketing content 
+                    that earns trusted backlinks, better rankings,
+                    and more SEO traffic for our clients.
+                    </p>
+                    <div class="images">
+                        <img src="about1.jpg">
+                        <img src="aboutus.jpg" class="active">
+                        <img src="about2.jpg">
+                        <img src="about3.jpg">
+                    </div>
+                    
+            </div>
+            <div class="image">
+                <img src="aboutus.jpg">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="galarry">
+        <h2>some photo from our copmany</h2>
+        <div class="container">
+            <img src="g1.jpg" title="first image">
+            <img src="g2.jpg" title="second image">
+            <img src="g3.jpg" title="third image">
+            <img src="g4.jpg" title="fourth image">
+            <img src="g5.jpg" title="fifth image">
+            <img src="g6.jpg" title="image 6">
+            <img src="g7.jpeg" title="image 7">
+            <img src="g8.jpg" title="image 8">
+            <img src="g9.jpg" title="image 9">
+        </div>
+        
+    </div>
+
+
+    <div class="skills">
+        <div class="container">
+            <h2>our skills</h2>
+
+            <div class="skills-progress">
+                <h4>html</h4>
+                <div><span data-progress="90%"></span></div>
+                <div class="counter" data-progress="90">0</div>
+            </div>
+            <div class="skills-progress">
+                <h4>css</h4>
+                <div><span data-progress="80%"></span></div>
+                <div class="counter" data-progress="80">0</div>
+            </div>
+            <div class="skills-progress">
+                <h4>javascript</h4>
+                <div><span data-progress="90%"></span></div>
+                <div class="counter" data-progress="90">0</div>
+            </div>
+            <div class="skills-progress">
+                <h4>python</h4>
+                <div><span data-progress="70%"></span></div>
+                <div class="counter" data-progress="70">0</div>
+            </div>
+            <div class="skills-progress">
+                <h4>c++</h4>
+                <div><span data-progress="60%"></span></div>
+                <div class="counter" data-progress="60">0</div>
+            </div>
+            
+        </div>
+        
+
+    </div>
+
+
+
+    <!-- <div class="timeout">
+        <div class="container">
+            <h2>our time line</h2>
+            <div class="content">
+                <div class="year">2018</div>
+
+                <div class="left">
+                    <h2>mohamed negm</h2>
+                    <p>22 years ago, I started Internet Marketing 
+                        Ninjas and today we employ nearly 50 Ninjas 
+                    </p>
+                </div>
+                <div class="clear-float"></div>
+                <div class="right">
+                    <h2>mohamed negm</h2>
+                    <p>22 years ago, I started Internet Marketing 
+                        Ninjas and today we employ nearly 50 Ninjas 
+                    </p>
+                </div>
+
+                <div class="clear-float"></div>
+                <div class="year">2018</div>
+
+                <div class="left">
+                    <h2>mohamed negm</h2>
+                    <p>22 years ago, I started Internet Marketing 
+                        Ninjas and today we employ nearly 50 Ninjas 
+                    </p>
+                </div>
+                <div class="clear-float"></div>
+                <div class="right">
+                    <h2>mohamed negm</h2>
+                    <p>22 years ago, I started Internet Marketing 
+                        Ninjas and today we employ nearly 50 Ninjas 
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <!-- start our team -->
+
+    <div></div>
+
+    <!-- end our team -->
+
+
+    <div class="contact">
+        <div class="container">
+            <div class="left">
+                <h2>contact us</h2>
+                <p>To understand the concept of CGI,
+                    let's see what happens when we click a 
+                    hyperlink to browse a particular web page or
+                    URL To understand the concept of CGI, let's 
+                    see what happens when we click a hyperlink to
+                    browse a particular web page or URL.
+                </p>
+                <div class="social">
+                    <div class="icon">
+                        <img src="face.png">
+                        <h2 class="number" data-number="9868">0</h2>
+                        <p>followers</p>
+                    </div>
+                    <div class="icon">
+                        <img src="linkedin.png">
+                        <h2 class="number" data-number="11868">0</h2>
+                        <p>followers</p>
+                    </div>
+                    <div class="icon">
+                        <img src="google+.png">
+                        <h2 class="number" data-number="8448">0</h2>
+                        <p>followers</p>
+                    </div>
+                    <div class="icon">
+                        <img src="twitter.png">
+                        <h2 class="number" data-number="7658">0</h2>
+                        <p>followers</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="contact-us">
+                <form>
+                    <input type="text" placeholder="your name" name="user-name">
+                    <input type="number" placeholder="your phone" name="phone">
+                    <input type="email" placeholder="your email" name="email">
+                    <div class="clear-float"></div>
+                    <textarea name="comment"></textarea>
+                    <div class="clear-float"></div>
+                    <input type="submit">
+                </form>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+
+
+
+    <script src="landing.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
+
+</body>
+</html>
